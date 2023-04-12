@@ -35,7 +35,7 @@ export const Navbar = () => {
     {
       icon: <FontAwesomeIcon icon={faPowerOff} />,
       label: 'Disconnect',
-      onClick: () => logout(`${location.origin}/unlock`)
+      onClick: () => logout(`${window.location.origin}/unlock`)
     }
   ];
 
